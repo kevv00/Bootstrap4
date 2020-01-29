@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+  </title>
+<link rel="stylesheet" href="css/bootstrap-grid.css">
+<link rel="stylesheet" href="css/bootstrap-grid.css.map">
+<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+<link rel="stylesheet" href="css/bootstrap-grid.min.css.map">
+<link rel="stylesheet" href="css/bootstrap-reboot.css">
+<link rel="stylesheet" href="css/bootstrap-reboot.css.map">
+<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+<link rel="stylesheet" href="css/bootstrap-reboot.min.css.map">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap.css.map">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css.map">
+</head>
+<body>
+<p class="text-muted"> this text is muted.</p>
+<p class="text-primary">This text is important.</p>
+<p class="text-success">this text indicates success.</p>
+<p class="text-info">this text represents some information. </p>
+<p class="text-warning"> This text represents warning.</p>
+<p class="text-danger"> this text represents danger.</p>
+<p class="text-muted"> secondary text</p>
+<p class="text-dark"> this text is dark grey</p>
+<p> default </p>
+
+<p class="text-left">Left aligned text on all viewport sizes.</p>
+<p class="text-center">Center aligned text on all viewport sizes.</p>
+<p class="text-right">Right aligned text on all viewport sizes.</p>
+
+<div class="p-3 mb-2 bg-primary text-white">primary</div>
+<div class="p-3 mb-2 bg-secondary text-white">secondary</div>
+<div class="p-3 mb-2 bg-success text-white">success</div>
+<div class="p-3 mb-2 bg-danger text-white">danger</div>
+<div class="p-3 mb-2 bg-warning text-dark">warning</div>
+<div class="p-3 mb-2 bg-info text-white">info</div>
+<div class="p-3 mb-2 bg-light text-dark">light</div>
+<div class="p-3 mb-2 bg-dark text-white">dark</div>
+<div class="p-3 mb-2 bg-white text-dark">white</div>
+
+
+<!--fixa q5 till q9-->
+<div class="container">
+  <div class="row">
+    <div class="col border">
+      1 of 2
+    </div>
+    <div class="col border">
+      2 of 2
+    </div>
+  </div>
+  <div class="row">
+    <div class="col border">
+      1 of 3
+    </div>
+    <div class="col border">
+      2 of 3
+    </div>
+    <div class="col border">
+      3 of 3
+    </div>
+  </div>
+</div>
+<br>
+<div class="container">
+<div class="row">
+  <div class="col border">
+    1 of 3
+  </div>
+  <div class="col-6 border">
+    2 of 3 (wider)
+  </div>
+  <div class="col border">
+    3 of 3
+  </div>
+</div>
+<div class="row">
+  <div class="col border">
+    1 of 3
+  </div>
+  <div class="col-5 border">
+    2 of 3 (wider)
+  </div>
+  <div class="col border">
+    3 of 3
+  </div>
+</div>
+</div>
+<br>
+<div class="container">
+<div class="row justify-content-md-center">
+  <div class="col col-lg-2 border">
+    1 of 3
+  </div>
+  <div class="col-md-auto border">
+    Variable width content
+  </div>
+  <div class="col col-lg-2 border">
+    3 of 3
+  </div>
+</div>
+<div class="row">
+  <div class="col border">
+    1 of 3
+  </div>
+  <div class="col-md-auto border">
+    Variable width content
+  </div>
+  <div class="col col-lg-2 border">
+    3 of 3
+  </div>
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-sm-8 border">col-sm-8</div>
+<div class="col-sm-4 border">col-sm-4</div>
+</div>
+<div class="row">
+<div class="col-sm border">col-sm</div>
+<div class="col-sm border">col-sm</div>
+<div class="col-sm border">col-sm</div>
+</div>
+<br>
+<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+<div class="row">
+<div class="col-12 col-md-8 border">.col-12 .col-md-8</div>
+<div class="col-6 col-md-4 border">.col-6 .col-md-4</div>
+</div>
+
+<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+<div class="row">
+<div class="col-6 col-md-4 border">.col-6 .col-md-4</div>
+<div class="col-6 col-md-4 border">.col-6 .col-md-4</div>
+<div class="col-6 col-md-4 border">.col-6 .col-md-4</div>
+</div>
+
+<!-- Columns are always 50% wide, on mobile and desktop -->
+<div class="row">
+<div class="col-6 border">.col-6</div>
+<div class="col-6 border">.col-6</div>
+</div>
+<br>
+<div class="container">
+<div class="row">
+  <div class="col align-self-start border">
+    One of three columns
+  </div>
+  <div class="col align-self-center border">
+    One of three columns
+  </div>
+  <div class="col align-self-end border">
+    One of three columns
+  </div>
+</div>
+</div>
+<br>
+<ul class="list-unstyled">
+<li class="media">
+  <img class="mr-3" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2264%22%20height%3D%2264%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16ff16f26e2%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16ff16f26e2%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2213.546875%22%20y%3D%2236.5%22%3E64x64%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Generic placeholder image">
+  <div class="media-body">
+    <h5 class="mt-0 mb-1">List-based media object</h5>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  </div>
+</li>
+<li class="media my-4">
+  <img class="mr-3" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2264%22%20height%3D%2264%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16ff16f26e2%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16ff16f26e2%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2213.546875%22%20y%3D%2236.5%22%3E64x64%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Generic placeholder image">
+  <div class="media-body">
+    <h5 class="mt-0 mb-1">List-based media object</h5>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  </div>
+</li>
+<li class="media">
+  <img class="mr-3" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2264%22%20height%3D%2264%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16ff16f26e2%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16ff16f26e2%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2213.546875%22%20y%3D%2236.5%22%3E64x64%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Generic placeholder image">
+  <div class="media-body">
+    <h5 class="mt-0 mb-1">List-based media object</h5>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  </div>
+</li>
+</ul>
+
+
+
+
+
+<p>You can use the mark tag to <mark>highlight</mark> text.</p>
+<p><del>This line of text is meant to be treated as deleted text.</del></p>
+<p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+<p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+<p><u>This line of text will render as underlined</u></p>
+<p><small>This line of text is meant to be treated as fine print.</small></p>
+<p><strong>This line rendered as bold text.</strong></p>
+<p><em>This line rendered as italicized text.</em></p>
+
+
+<dl class="row">
+  <dt class="col-sm-3">Description lists</dt>
+  <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+
+  <dt class="col-sm-3">Euismod</dt>
+  <dd class="col-sm-9">
+    <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
+    <p>Donec id elit non mi porta gravida at eget metus.</p>
+  </dd>
+
+  <dt class="col-sm-3">Malesuada porta</dt>
+  <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+
+  <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+  <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+
+  <dt class="col-sm-3">Nesting</dt>
+  <dd class="col-sm-9">
+    <dl class="row">
+      <dt class="col-sm-4">Nested definition list</dt>
+      <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
+    </dl>
+  </dd>
+</dl>
+
+<div class="bd-example">
+  <svg class="bd-placeholder-img bd-placeholder-img-lg img-fluid" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Responsive image"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Responsive image</text></svg>
+</div>
+
+
+<div class="bd-example bd-example-images">
+  <svg class="bd-placeholder-img img-thumbnail" width="200" height="200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera: 200x200"><title>A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera</title><rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6" dy=".3em">200x200</text></svg>
+</div>
+<div class="bd-example bd-example-images">
+  <svg class="bd-placeholder-img img-thumbnail" width="200" height="200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera: 200x200"><title>A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera</title><rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6" dy=".3em">200x200</text></svg>
+</div>
+
+<div class="bd-example bd-example-images">
+  <div class="text-center">
+    <svg class="bd-placeholder-img rounded" width="200" height="200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 200x200"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6" dy=".3em">200x200</text></svg>
+  </div>
+</div>
+
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<div class="bd-example">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Class</th>
+        <th scope="col">Heading</th>
+        <th scope="col">Heading</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-active">
+        <th scope="row">Active</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr>
+        <th scope="row">Default</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+
+
+      <tr class="table-primary">
+        <th scope="row">Primary</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-secondary">
+        <th scope="row">Secondary</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-success">
+        <th scope="row">Success</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-danger">
+        <th scope="row">Danger</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-warning">
+        <th scope="row">Warning</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-info">
+        <th scope="row">Info</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-light">
+        <th scope="row">Light</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr class="table-dark">
+        <th scope="row">Dark</th>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="table-responsive">
+  <table class="table">
+    ...
+  </table>
+</div>
+
+<div class="bd-example">
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Heading</th>
+          <th scope="col">Heading</th>
+          <th scope="col">Heading</th>
+          <th scope="col">Heading</th>
+          <th scope="col">Heading</th>
+          <th scope="col">Heading</th>
+          <th scope="col">Heading</th>
+          <th scope="col">Heading</th>
+          <th scope="col">Heading</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+          <td>Cell</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="alert alert-primary" role="alert">
+  This is a primary alert—check it out!
+</div>
+<div class="alert alert-secondary" role="alert">
+  This is a secondary alert—check it out!
+</div>
+<div class="alert alert-success" role="alert">
+  This is a success alert—check it out!
+</div>
+<div class="alert alert-danger" role="alert">
+  This is a danger alert—check it out!
+</div>
+<div class="alert alert-warning" role="alert">
+  This is a warning alert—check it out!
+</div>
+<div class="alert alert-info" role="alert">
+  This is a info alert—check it out!
+</div>
+<div class="alert alert-light" role="alert">
+  This is a light alert—check it out!
+</div>
+<div class="alert alert-dark" role="alert">
+  This is a dark alert—check it out!
+</div>
+
+<p class="h1">h1. Bootstrap heading</p>
+<p class="h2">h2. Bootstrap heading</p>
+<p class="h3">h3. Bootstrap heading</p>
+<p class="h4">h4. Bootstrap heading</p>
+<p class="h5">h5. Bootstrap heading</p>
+<p class="h6">h6. Bootstrap heading</p>
+
+
+
+</body>
+  </html>
